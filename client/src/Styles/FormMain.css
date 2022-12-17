@@ -1,0 +1,114 @@
+.body_container{
+    color: rgba(80,80,80,1);
+    background-color: rgba(200,200,200,0);
+    border-radius: 10px;
+    content: center;
+}
+ 
+.legend{
+    margin-left: 60px;
+}
+
+.components{
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+
+  .main_buttons{
+      height: 40px;
+      width: 290px;
+      background-color: rgba();
+      border: 1px solid lightseagreen;
+      border-radius: 3px;
+  }
+
+  .button_components{
+      margin-top: 30px;
+  }
+
+  .gap{
+      height:50px;
+  }
+
+  .gapo{
+    height:150px;
+}
+
+.dash_container{
+    padding:2rem;
+}
+
+  input.myInput{
+    border:none;
+    border-bottom: 1px solid rgba(50,50,50,0.5);
+    padding: 5px 10px;
+    outline: none;
+    border-radius: 2px;
+  }
+
+  .myInput:focus {
+    outline: none !important;
+    border:none;
+    border-bottom: 2px solid rgba(10,10,10,0.5);
+    padding: 5px 10px;
+    outline: none;
+    box-shadow: 0 0 0 .25rem rgba(13,110,253,0);
+    border-radius: 3px;
+    transition-timing-function: ease-in-out;
+  }
+
+  .middler{
+      margin-left:35vw;
+      margin-top: 5vh;
+      height: fit-content;
+      width: 30vw;
+      padding:2rem;
+  }
+
+  .checkout-field{
+      margin-bottom: 1rem;
+      margin-top:2rem;
+      margin-left:3rem;
+  }
+
+  .paystack_button{
+      width: 18rem;
+      border-radius: 2px;
+      height: 2.5rem;
+      background-color: rgba(109, 201, 167,1);
+      margin-left: 3rem;
+      margin-top: 2rem;
+  }
+
+
+
+  .container-fluid .jumbotron, .container .jumbotron {
+    border-radius: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  @media screen and (min-width: 768px)
+  {
+  .container-fluid .jumbotron, .container .jumbotron {
+      padding-left: 60px;
+      padding-right: 60px;
+  }
+  }
+  
+  @media screen and (min-width: 768px)
+  {
+  .jumbotron {
+      padding-bottom: 48px;
+      padding-top: 48px;
+  }
+  }
+  
+  .jumbotron {
+    background-color: #eee;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
